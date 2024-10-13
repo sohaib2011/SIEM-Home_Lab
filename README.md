@@ -1,4 +1,4 @@
-# Elastic SIEM Lab Setup Demonstrating Basic Security Monitoring.
+# Elastic SIEM Lab Setup - Basic Security Monitoring.
 Successfully set up and configured Elastic Stack SIEM in a home lab environment
 
 Overview
