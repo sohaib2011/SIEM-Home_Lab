@@ -1,4 +1,4 @@
-# SIEM-Home_Lab
+# SIEM Home Lab
 Successfully set up and configured Elastic Stack SIEM in a home lab environment
 
 Overview
