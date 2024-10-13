@@ -1,0 +1,3 @@
+[Watch this video](https://www.youtube.com/watch?v=R-xnRashcVw) for a thorough step-by-step guide on installing and setting up both Kali Linux and VMware Workstation Pro for free!
+
+**Note**: In VMware on your Kali Linux VM, configure the network settings to use **NAT** and **VMnet8 (Host-only)** to ensure your IP remains protected from external visibility.
