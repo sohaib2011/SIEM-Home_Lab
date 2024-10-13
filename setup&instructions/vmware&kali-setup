@@ -1,6 +1,6 @@
 URL: https://www.youtube.com/watch?v=R-xnRashcVw
 
-The provided link/video will showcase a thorough step-by-step to how to install and setup for the simulation of the project
+The provided link/video will showcase a thorough step-by-step on how to install and setup the simulation of the project
 Contains: Kali Linux and VMware Workstation Pro (Free)
 
 NB! In VMware, right-click your Kali Linux VM to configure the network settings. The default setting is NAT, but make sure to add VMnet8 (Host-Only) to ensure your IP is not exposed externally.
