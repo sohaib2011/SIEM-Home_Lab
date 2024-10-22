@@ -44,7 +44,7 @@ Successfully set up and configured Elastic Stack SIEM in a home lab environment
 
 
 ## Step 3: Security Event Querying in Elastic SIEM
-3.1 Click on menu, under category "Observability" you will see Logs"
+3.1 Click on menu, then under the category "Observability" you will see "Logs"
 
 <img width="150" alt="image" src="https://github.com/user-attachments/assets/c69d83c2-e3e4-4171-b5c3-4ca62758c933">
 
