@@ -49,14 +49,27 @@ Successfully set up and configured Elastic Stack SIEM in a home lab environment
 <img width="150" alt="image" src="https://github.com/user-attachments/assets/c69d83c2-e3e4-4171-b5c3-4ca62758c933">
 
 
-3.1.0 This view is showcasing everything monitored and managed by the Elastic Agent on machine kali. This is a strong indication that our agent is truly working!
+3.1.0 Since we want to effectively view our logs in real-time, we can use the view "stream" in Elastic. As shown in the image below, all security-related activities happening on kali is being monitored by Elastic. This is a strong indication that our Agent is truly working!
 
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/4361b750-4845-42b7-bff7-fc463a7c938b">
+<img width="479" alt="image" src="https://github.com/user-attachments/assets/5fd64f70-f975-4878-aebf-422ce27327a1">
 
 
-3.2 We can narrow down our search to look for the specific nmap scans we did earlier. 
 
-<img width="470" alt="image" src="https://github.com/user-attachments/assets/f9c29592-8977-45ec-bcf8-420f5001675b">
+
+3.2 We will have to narrow down the search query to filter out the specific events performed in the previous step(s)
+
+<img width="817" alt="image" src="https://github.com/user-attachments/assets/3b02717a-2ddb-4503-adf9-bb360d18f203">
+
+
+3.3 By clicking on "view details", we can inspect deeper into each dataset. Here we can find heaps of interesting information about the event, in this case what was run on the system.
+
+<img width="467" alt="image" src="https://github.com/user-attachments/assets/b57a0d19-3f78-4fdc-86d4-268aac9208cf">
+
+
+## Bonus: Create an Alert
+
+
+
 
 
 
