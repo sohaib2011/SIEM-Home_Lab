@@ -27,7 +27,7 @@ Successfully set up and configured Elastic Stack SIEM in a home lab environment
 
 1.3 Run command in Kali Linux. 
 
-Note: To verify that the host has been successfully configured with agent, a message will say "Elastic Agent has been successfully installed"
+**Note:** To verify that the host has been successfully configured with agent, a message will say "Elastic Agent has been successfully installed"
 
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/4db6c101-aaad-4ca7-9992-12514983d154">
 
