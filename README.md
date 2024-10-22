@@ -1,11 +1,12 @@
 # Personalized Elastic SIEM Lab Setup
-Successfully set up and configured Elastic Stack SIEM in a home lab environment
+Hands-on, easy-to-make practical SOC environment
 
 
 ## Objective
 * Create an Agent and successfully configure it with a specific host
 * Generate simple security events to be registered in the SIEM
-* Simple queries to analyze the logs 
+* Simple queries to analyze the logs
+* Bonus: Alerting in SIEM
 
 ## Tools Needed For This Project
 * VMware Workstation Pro
@@ -67,6 +68,33 @@ Successfully set up and configured Elastic Stack SIEM in a home lab environment
 
 
 ## Bonus: Create an Alert
+
+4.1 From the menu button, click on "Alerts" (under category Security). We will have to define new rules for the alert to... well actually alert! To do this, click on "Manage Rules"
+
+<img width="946" alt="image" src="https://github.com/user-attachments/assets/b3ebaad1-8484-4e37-a9a6-92472aeca3c6">
+
+
+4.2 Click on "Create new rule" at the top-right corner (again). Here you will be introduced to a bunch of different rule types; however as of this demo we will use "Custom Query"
+
+<img width="410" alt="image" src="https://github.com/user-attachments/assets/0f1e6556-97f7-44fd-a745-5aab16d4a7a1">
+
+
+4.2.1 Following up, we will have to enter a specific condition for the rule. We will use the Nmap query shown in the previous stage
+
+<img width="356" alt="image" src="https://github.com/user-attachments/assets/91703edd-01f0-44cd-961e-f30e5232a343">
+
+4.3 Under the next page "About rule", define name and its given description. Here you will also rank the alert based on its severity, which will prioritize alerts based on importance.
+
+<img width="368" alt="image" src="https://github.com/user-attachments/assets/2328bcc2-c40a-4cfb-8fd4-cdf97050094f">
+
+4.4 Skipping through to "Rule action", choose the action that will trigger the alert when the condition is met. 
+
+<img width="371" alt="image" src="https://github.com/user-attachments/assets/20c0a40a-0517-4542-8ab0-0cd78f493b34">
+
+
+4.5 When done, click on "Create and enable rule" to finalize the alert :)
+
+
 
 
 
