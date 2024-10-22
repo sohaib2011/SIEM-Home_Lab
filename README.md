@@ -1,4 +1,4 @@
-# Elastic SIEM Lab Setup - Basic Security Monitoring.
+# Personalized Elastic SIEM Lab Setup
 Successfully set up and configured Elastic Stack SIEM in a home lab environment
 
 
@@ -43,7 +43,7 @@ Note: To verify that the host has been successfully configured with agent, a mes
 
 
 
-## Step 3: Security Event Searching in Elastic SIEM
+## Step 3: Security Event Querying in Elastic SIEM
 3.1 Click on menu, under category "Observability" you will see Logs"
 
 <img width="150" alt="image" src="https://github.com/user-attachments/assets/c69d83c2-e3e4-4171-b5c3-4ca62758c933">
@@ -55,6 +55,10 @@ Note: To verify that the host has been successfully configured with agent, a mes
 
 
 3.2 We can narrow down our search to look for the specific nmap scans we did earlier. 
+
+<img width="470" alt="image" src="https://github.com/user-attachments/assets/f9c29592-8977-45ec-bcf8-420f5001675b">
+
+
 
 
 
